@@ -20,7 +20,7 @@ function findMaximum(num1, num2) {
 function isPalindrome(word) {
     const reversedWord = word.split("").reverse().join("");
 
-    return word === reversedWord;
+    return word === reversedWord
 }
 
 
